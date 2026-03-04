@@ -1,0 +1,56 @@
+/* 
+    colores do orbita: #7D58C4,
+*/
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(91, 69, 128);
+}
+header {
+    position: relative;
+    /*background: linear-gradient(#7485f3, rgb(137, 138, 219));*/
+    background-color:rgb(86, 102, 192);
+    
+    height: 200px;
+}
+.container {
+    margin: 0 auto;
+
+}
+.menu_opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.menu_opcoes ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    overflow: hidden;
+    background-color: rgb(61, 67, 102);
+    border-radius: 5px;
+}
+.menu_opcoes ul li {
+    display: inline;
+    margin-left: 0px;
+    border-right: 5px solid rgb(86, 102, 192);
+}
+
+.menu_opcoes li:last-child{
+    border-right: none;
+}
+.menu_opcoes a {
+    color:bisque;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-shadow: 2px 2px 2px purple;
+}
+.menu_opcoes li a:hover {
+    color: rgb(90, 14, 71);
+    background-color: #a574de;
+    text-shadow: 2px 2px 2px plum;
+}
