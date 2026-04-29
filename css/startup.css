@@ -1,0 +1,43 @@
+.startup {
+    margin-top: -22px;
+    position: relative;
+}
+.modelo {
+    position: relative;
+    padding-top: 90px;
+}
+.modelo img {
+    width: 50%;
+    float: left;
+}
+.modelo label::after {
+    position:absolute;
+    top: 30px;
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+label[for="preto"]::after {
+    left: 10;
+    background-color: blueviolet;
+}
+label[for="azul"]::after {
+    left: 70px;
+    background-color: blue;
+}
+label[for="amarelo"]::after {
+    left: 130px;
+    background-color: yellow;
+}
+.modelo input:checked + label::after{
+    border: 6px solid rgba(100, 100, 100, 0.5);
+}
+.modelo input[type="radio"]{
+    display:none;
+}
+.modelo input:not(:checked) + label img {
+    display: none;
+}

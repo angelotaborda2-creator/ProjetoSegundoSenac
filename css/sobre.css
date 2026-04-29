@@ -1,0 +1,13 @@
+.contexto1 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.contexto2 {
+    background-color: #CA6CE5;
+    margin: 5px;
+    border-radius: 10px;
+}
+.destaque2 {
+    width: 70%;
+    float: right;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OrbitaSENAC</title>
+    <title><?php echo isset($pageTitle)? $pageTitle : 'OrbitaSenac';?></title>
     <link rel="icon" type="image/xicon" href="img/pogicon.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,7 +15,7 @@
                     <li><a href="#">Sua Conta</a></li>
                     <li><a href="#">Portifólio</a></li>
                     <li><a href="#">Entre em Contato</a></li>
-                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="sobre.php">Sobre nós</a></li>
                     <li><a href="#">Ajuda</a></li>
                 </ul>
             </nav>

@@ -18,6 +18,10 @@ header {
     margin: 0 auto;
 
 }
+.container h1 {
+    color: azure;
+    padding: 10px;
+}
 .menu_opcoes {
     position: absolute;
     bottom: 0;
@@ -53,4 +57,170 @@ header {
     color: rgb(90, 14, 71);
     background-color: #a574de;
     text-shadow: 2px 2px 2px plum;
+}
+/*código referente ao corpo do site */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    height: 1200px;
+    background-color: rgb(147, 158, 221);
+}
+.busca, .menu_start {
+    background-color: #b89bd8;
+    font-weight: bold;
+    font-family: sans-serif, arial;
+    font-size: 18px;
+    color: #5A0E47;
+    text-shadow: 3px 3px 3px plum;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 28%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px purple;
+    float: left;
+    margin-top: 5px;
+}
+.busca h2{
+    margin-top: -8px;
+    
+}
+.menu_start h2 {
+    
+      margin-bottom: -8px;
+}
+.menu_start {
+    clear: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.menu_start li {
+    background-color: rgb(228, 79, 190);
+    margin-bottom: 6px;
+    padding: 5px 15px;
+    box-shadow: 3px 3px 3px purple;
+}
+.menu_start a {
+    text-decoration: none;
+}
+.menu_start ul {
+    list-style: none;
+    margin-right: 10px;
+    
+}
+.menu_start li :hover{
+    width: 100%;
+    color: rgb(90, 14, 71);
+    background-color: #a574de;
+    text-shadow: 2px 2px 2px plum;
+    margin-bottom: 3px;
+    box-shadow: 3px 3px 3px palevioletred;
+    margin-right: 20px;
+    display: grid;
+}
+.busca button {
+    background-color: #a574de;
+    /*color: purple;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 3px plum;*/
+    background-image: url("../img/lupa.png");
+    background-repeat: none;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999px;
+}
+/*.busca button:hover {
+    background-color: rgb(228, 79, 190);
+    color: #a574de;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 3px purple;
+}*/
+.busca input[type=search] {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(57, 10, 66);
+    color: #b89bd8;
+}
+.busca ::placeholder{
+    color: #b89bd8;
+}
+.nyancat{
+    width: 100%;
+    float: left;
+    
+}
+.destaque {
+    padding: 20px;
+    background-color: #B89BD8;
+    width: 65%;
+    float: left;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px purple;
+    margin-top: -100px;
+}
+/*final destaque*/
+
+/* Inicio Portifolio */
+.flex-container{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+}
+.portifolio{
+    flex: 1;
+    background-color: #b89bd8;
+    border: 2px solid purple;
+    width: 33%;
+    height: 280px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.portifolio:last-child {
+    margin-right: 0;
+}
+
+.esq {
+    background-color: plum;
+}
+.esq img {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+.esp p{
+    text-align: justify;
+    color:#5A0E47;
+    margin: 3px;
+    font-family: "open_sanssemibold",;
+}
+.meio {
+    background-color: rgb(228, 79, 190);
+}
+.dir {
+    background-color: #5A0E47;
+}
+/*fim Portifolio*/
+/*scrollbutton for the top*/
+.scrollbutton {
+    background-image: url("../img/devoltar.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+    display: none;
 }
