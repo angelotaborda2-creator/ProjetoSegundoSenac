@@ -1,0 +1,41 @@
+.i {
+    margin-left: 65px;
+}
+fieldset {
+    width: 85%;
+    background-color: #9E65DA;
+    border: solid 3px #7916e2;
+    border-radius: 25px;
+    padding-top: 40px;
+    padding-left: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    display: inline;
+}
+fieldset legend {
+    color: plum;
+    font-size: 32px;
+}
+#enviar {
+    float: right;
+    border: none;
+    color:deeppink;
+    background-color: #743ab1;
+    box-shadow: 0 1px 3px #d3acfd;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    display: block;
+    padding: 0.5em 1em;
+    margin: 1em 1em;
+    margin-left: 600px;
+    border-radius: 15px;
+}
+#resultado {
+    background-color: crimson;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-left: 4px solid black;
+    margin-left: 65px;
+    width: 85%;
+}
